@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "AQA Copilot",
+  "version": "1.0.0",
+  "identifier": "local.aqa.copilot",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devUrl": "http://127.0.0.1:1420",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [{"label":"main","title":"AQA Copilot — локальный помощник","width":1380,"height":920,"minWidth":900,"minHeight":720,"visible":false,"decorations":true,"skipTaskbar":false,"center":true}],
+    "security": {
+      "csp": "default-src 'self'; connect-src 'self' ipc: http://ipc.localhost http://127.0.0.1:17321; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; font-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'",
+      "capabilities": ["main-capability"]
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.ico"],
+    "resources": {"resources/backend/":"resources/backend/"},
+    "shortDescription": "Локальный помощник по автоматизации тестирования",
+    "windows": {"nsis":{"installMode":"currentUser","languages":["Russian","English"],"displayLanguageSelector":false}}
+  }
+}
