@@ -1,0 +1,22 @@
+{
+  "model": "gemma4:12b-it-qat",
+  "ollama_url": "http://127.0.0.1:11435",
+  "asr_model_path": "C:/AQA-Copilot-Data/models/whisper-large-v3",
+  "asr_device": "cuda",
+  "asr_compute_type": "int8_float16",
+  "pause_ms": 4000,
+  "temperature": 0.2,
+  "num_ctx": 4096,
+  "num_predict": 1536,
+  "seed": 42,
+  "reasoning_enabled": false,
+  "adaptive_reasoning": false,
+  "online_reference_enabled": false,
+  "auto_answer": true,
+  "microphone_auto_answer": false,
+  "verified_answer_cards_enabled": true,
+  "knowledge_enabled": true,
+  "history_enabled": true,
+  "vram_reserve_mb": 1536,
+  "tesseract_path": ""
+}
