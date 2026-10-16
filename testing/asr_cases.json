@@ -1,0 +1,17 @@
+[
+  {"id":"linux-question","text":"Расскажи, пожалуйста, что такое чмод и что такое чоун.","terms":["chmod","chown"]},
+  {"id":"linux-context","text":"Чем отличаются команды чмод и чоун в Линукс? Как поменять права файла и его владельца?","terms":["chmod","chown","Linux"]},
+  {"id":"linux-misheard","text":"Что такое чмот и что такое човно?","terms":["chmod","chown"],"note":"Intentional semantic-bias probe: the spoken text contains ambiguous mishearings, not the original command names."},
+  {"id":"database","text":"Как проверить транзакции и индексы в Постгрес? Для чего нужны джоин, груп бай и хэвинг?","terms":["PostgreSQL","JOIN","GROUP BY","HAVING"]},
+  {"id":"brokers","text":"Чем отличаются Рэббит эм кью и Кафка? Что такое консьюмер групп и офсет?","terms":["RabbitMQ","Kafka","consumer group","offset"]},
+  {"id":"languages","text":"Как читать и запускать код на Питоне? Чем отличаются си шарп и си плюс плюс?","terms":["Python","C#","C++"]},
+  {"id":"backend","text":"Бэкенд написан на Спринг бут, Котлин, Джава и Груви. Как по стек трейсу найти причину ошибки?","terms":["Spring Boot","Kotlin","Java","Groovy","stack trace"]},
+  {"id":"frontend","text":"Фронтенд использует Тайп скрипт, Джава скрипт, эн пи эм, Нод джей эс, Ант и Редакс.","terms":["TypeScript","JavaScript","npm","Node.js","Ant","Redux"]},
+  {"id":"tools-tests","text":"Тест кейсы лежат в Тест рейл, задачи в Джире, а сборки запускает Дженкинс.","terms":["test cases","TestRail","Jira","Jenkins"]},
+  {"id":"tools-team","text":"Документация в Конфлюенс, код в Битбакет, макеты в Фигме, общение в Слаке.","terms":["Confluence","Bitbucket","Figma","Slack"]},
+  {"id":"containers","text":"Для он премис решения используются Докер компоуз и Кубернетес. Как посмотреть логи контейнера?","terms":["on-premise","Docker Compose","Kubernetes"]},
+  {"id":"virtualization","text":"Расскажи про виртуализацию в Ви эм вэр и Виртуал бокс, а также про систему контроля версий Гит.","terms":["VMware","VirtualBox","Git"]},
+  {"id":"network","text":"Объясни модель оси, протоколы ти си пи ай пи, ю ди пи, ди эн эс и эйч ти ти пи эс.","terms":["OSI","TCP/IP","UDP","DNS","HTTPS"]},
+  {"id":"qa-process","text":"Чем отличаются смоук и регрессионное тестирование? Как тестировать микросервисы, релизы и новые функции продукта?","terms":["smoke","регрессионное","микросервисы"]},
+  {"id":"ordinary","text":"Сегодня хорошая погода. Купил чмот и пошёл домой. Поворот вокруг оси и новая реплика в разговоре.","terms":[],"forbidden":["chmod","OSI","replica"]}
+]
