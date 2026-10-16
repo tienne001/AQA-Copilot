@@ -1,0 +1,6 @@
+{
+  "identifier": "main-capability",
+  "description": "Local application event access only; no filesystem or shell commands exposed to webview",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}
